@@ -1,0 +1,26 @@
+//
+//  SCREEN_NAME_TAGViewController.swift
+//  PROJECT_NAME_TAG
+//
+//  Created by USERNAME_TAG on 09/12/19.
+//  Copyright © 2019 USERNAME_TAG. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class SCREEN_NAME_TAGViewModel {
+
+    // MARK: - Attributes
+
+    weak var delegate: SCREEN_NAME_TAGViewModelDelegate?
+
+    let router: SCREEN_NAME_TAGRouter
+
+    // MARK: - Init
+
+    init(router: SCREEN_NAME_TAGRouter) {
+        self.router = router
+    }
+
+}
